@@ -17,7 +17,7 @@ set ConvertedSaleDate = Convert(Date,SaleDate)
 
 ---------------------------------------------------------------------------------------------
 
---Populate Property Address Data
+--Populate Property Address Data by filling "NULL" Addresses
 
 select *
 from SQLPROJECTSSS.dbo.NashvilleHousing
